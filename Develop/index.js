@@ -8,6 +8,26 @@ const questions = [
         type: 'index',
         name: 'title',
         message: 'What is the title of your project?'
+    }, {
+        type: 'index',
+        name: 'description',
+        message: 'Enter a description of the project.'
+    }, {
+        type: 'index',
+        name: 'installation instructions',
+        message: 'Enter installation instructions for the project.'
+    }, {
+        type: 'index',
+        name: 'usage information',
+        message: 'Enter usage information for the project.' 
+    }, {
+        type: 'index',
+        name: 'contribution guidelines',
+        message: 'Enter contribution guidelines for the project.'
+    }, {
+        type: 'index',
+        name: 'test instructions',
+        message: 'Enter test instructions for the project.'
     }
 ];
 
