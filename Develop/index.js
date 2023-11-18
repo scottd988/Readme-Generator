@@ -29,7 +29,21 @@ const questions = [
         type: 'input',
         name: 'Tests',
         message: 'Enter test instructions for the project.'
+    },{
+        type: 'list',
+        name: 'License',
+        message: 'Select license used.',
+        choices: [
+            'MIT',
+            'IBM',
+            'ISC',
+            'Mozilla',
+            'SIL',
+            'NA'
+        ]
     }
+
+
 ];
 
 /**  TODO: Create a function to write README file
