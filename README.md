@@ -29,5 +29,4 @@ THEN I am taken to the corresponding section of the README
 ```
 
 ## License
-This project is licensed under the [MIT]((https://opensource.org/licenses/MIT)) license.
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
