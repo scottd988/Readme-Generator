@@ -32,17 +32,13 @@ function renderLicenseSection(license) {
   if (license === 'NA') {
   return '';
 } else {
-  return `
-  ## License
-  This project is licensed under the [${license}](${renderLicenseLink(license)}) license.
-  ${renderLicenseBadge(license)}
+  return `## License
+  This project is licensed under the [${license}] license. ${renderLicenseBadge(license)}(${renderLicenseLink(license)})
 `;
 }
 }
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  console.log(renderLicenseSection(data.license));
-  console.log(renderLicenseLink(data.license));
   return `# ${data.Title}
 
 ## Description
@@ -62,6 +58,9 @@ ${data.Tests}
 
 ${renderLicenseSection(data.license)}
 
+## Questions
+Github: (${data.username})(github.com/${data.username})
+Email: ${data.email}
 `;
 
 }

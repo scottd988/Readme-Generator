@@ -32,7 +32,7 @@ const questions = [
     },{
         type: 'list',
         name: 'license',
-        message: 'Select license used.',
+        message: 'Select license used for project.',
         choices: [
             'MIT',
             'IBM',
@@ -41,6 +41,14 @@ const questions = [
             'SIL',
             'NA'
         ]
+    }, {
+        type: 'input',
+        name: 'username',
+        message: 'Enter your Github username.'
+    }, {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address.'
     }
 
 
