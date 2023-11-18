@@ -7,7 +7,7 @@ const fs = require('fs');
 const questions = [
     {
         type: 'input',
-        name: 'title',
+        name: 'Title',
         message: 'What is the title of your project?'
     }, {
         type: 'input',
@@ -31,7 +31,7 @@ const questions = [
         message: 'Enter test instructions for the project.'
     },{
         type: 'list',
-        name: 'License',
+        name: 'license',
         message: 'Select license used.',
         choices: [
             'MIT',
